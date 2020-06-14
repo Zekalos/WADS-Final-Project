@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <link rel="icon" type="image" href="/image/icon.png">
+    <link rel="icon" type="image" href="/image/Icon.png">
     <title>
         Login
     </title>
