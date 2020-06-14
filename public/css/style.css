@@ -1,0 +1,412 @@
+body{
+    background: url("/image/bg.jpg");
+    background-size: cover;
+
+}
+
+/*Login Box*/
+
+.center {
+    display: block;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+.loginbox{
+    height: 520px;
+    width: 400px;
+    position: relative;
+    margin: auto;
+    background-color: rgba(220, 220, 220, 0.5);
+    border: 1px grey solid;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.slide{
+    width: 248px;
+    margin: 40px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px grey;
+    border-radius: 30px;
+}
+.toogle{
+    padding: 5px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+.slide_btn{
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    background: orange;
+    border-radius: 30px;
+    transition: 0.5s
+
+}
+
+::placeholder{
+    color: black;
+}
+
+/*Login Forms*/
+
+#welcome{
+    margin-top: 10px;
+}
+
+
+.Login{
+    top: 180px;
+    margin: 20px ;
+    margin-left: auto;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input{
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    outline: none;
+    border-top: none;
+    border-left:  none;
+    border-right: none;
+    border-bottom:  1px white solid;
+
+}
+.login-btn , .guest-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;
+    background: darkorange;
+    border:0;
+    outline: none;
+    border-radius: 30px;
+}
+
+
+/*Register Forms*/
+.Register{
+    margin-left: 1000px;
+    top: 200px;
+    position: absolute;
+    width: 50vh;
+    transition: 0.5s;
+}
+
+.FName{
+    height: 40px;
+    width:  110%;
+    margin-left: 10px ;
+    outline: none;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px white solid;
+    color: black;
+
+}
+
+.EmailRegister{
+    width: 86%;
+    height: 40px;
+    margin: 10px;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px white solid;
+
+}
+.Passwords{
+    height: 40px;
+    width: 110%;
+    margin: 10px;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px white solid;
+}
+
+.Age{
+    width: 15%;
+    height: 30px;
+    margin: 5px;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px white solid;
+    color: black;
+}
+
+.agreement{
+    margin: 10px;
+    color: black;
+}
+
+.agreementcheckbox{
+    margin: 10px;
+    color: black;
+}
+
+.register-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 10px 20px;
+    background: darkorange;
+    border:0;
+    outline: none;
+    border-radius: 30px;
+}
+
+#gender{
+    color: black;
+}
+
+/*Create Room*/
+.Max{
+    width: 10%;
+    text-align: center;
+}
+
+
+/*navbar*/
+
+.select{
+    color:black;
+}
+
+/*table*/
+
+table.table-bordered > thead > tr > th{
+    border:1px solid grey;
+}
+
+table.table-bordered > tbody > tr > td{
+    border:1px solid grey;
+}
+
+/*chatbox*/
+.container-fluid{
+    height: 500px;
+    margin: 70px auto;
+    background-color: rgba(220, 220, 220, 0.7);
+    padding: 0px;
+
+}
+
+.container{
+    height: 500px;
+    margin: 70px auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.vertical{
+    border-right: solid salmon;
+    height: 500px;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.horizontal{
+    border-bottom: solid salmon;
+    width: 100%;
+}
+
+.searchbox{
+    background: lightsalmon;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.roomname{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.roomtable {
+
+    height: 390px;
+    overflow-y: auto;
+}
+/*
+Chat Panel
+*/
+.chat-panel , .chat-panel_public{
+    margin-left: 26%;
+}
+
+.scrollpage {
+    margin-top: 3px;
+    height: 390px;
+    overflow-y: auto;
+}
+
+.outgoing , .incoming{
+    overflow:hidden;
+}
+
+.message_sent p { /*the text*/
+    background: white none repeat scroll 0 0;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 10px 10px 0px 60px;
+    color: black;
+    padding: 5px 10px 5px 12px;
+    text-align: right;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+
+.sent{
+   margin-right: 10px;
+   position: relative;
+   text-align: right;
+}
+
+
+.message_sent { /*the position*/
+   float: right;
+   margin-left: 10px;
+
+}
+
+.message_received p { /*the text*/
+    word-wrap: break-word;
+    background: lightblue none repeat scroll 0 0;
+    border-radius: 10px;
+    color: black;
+    font-size: 14px;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 5px 10px 5px 12px;
+    display: inline-block;
+}
+
+
+.message_received { /*the position*/
+    width: 46%;
+    margin-top: 10px;
+}
+
+.received{
+    margin-left: 10px;
+    position: relative;
+    text-align: left;
+ }
+
+
+.input_field input {
+    background: transparent none repeat scroll 0 0;
+    border: 1px salmon solid;
+    border-radius: 10px;
+    font-size: 15px;
+    min-height: 44px;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.type_msg {
+    position: relative;
+}
+
+
+
+/*People*/
+.leaveroom{
+    background-color: red;
+    border-radius: 10%;
+    border: none;
+    margin: 5px 10px 5px;
+}
+
+.roomcontainer {
+    background: transparent none repeat scroll 0 0;
+    float: left;
+    overflow: hidden;
+    width: 25%;
+}
+
+
+.roompanel {
+    height: 440px;
+    overflow-y: scroll;
+
+}
+
+
+.chat_content h5{
+    font-size:15px;
+    color:#464646;
+    margin:0 0 8px 0;
+}
+
+
+.chat_content h5 span{
+    font-size:13px;
+    float:right;
+}
+
+.chat_content p{
+    font-size:14px;
+    color:#989898;
+    margin:auto
+}
+
+.chat_content {
+  float: left;
+  padding: 0 0 0 15px;
+  width: 88%;
+}
+
+.contact{
+    overflow:hidden;
+    clear:both;
+}
+
+.chat_list ,.chat_list_public {
+  border-bottom: 1px solid #c4c4c4;
+  margin: 0;
+  padding: 18px 16px 10px;
+}
+
+.selected{
+    background:#ebebeb;
+}
+
+.input{
+    color: black;
+}
+
+
+input[type = email]{
+    color: black;
+}
+
+input[type = password]{
+    color: black;
+}
+
+th{
+    text-align: center;
+}
