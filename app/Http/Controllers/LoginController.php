@@ -59,9 +59,8 @@ class LoginController extends Controller
         $firstname = $request->input('firstname');
         $lastname = $request->input('lastname');
         User::create($input);
-
-        Mail::to($request->input('email'))->send(new SendEmail($firstname , $lastname));
-        return view('Confirmation.verification');
+        
+        return redirect()->back();
 
     }
 
