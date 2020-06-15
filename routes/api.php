@@ -13,14 +13,15 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-/*
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
-*/
 
 Route::post('register', 'API\RegisterController@register');
 
 Route::middleware('auth:api')->group(function(){
     Route::resource('room' , 'API\RoomController');
 });
+
+Route::get('/people' , 'API\FriendController@show');
+Route::post('/people/add/{id}', 'API\FriendController@add');
+Route::delete('/people/delete/{id}', 'API\FriendController@unfriend');
+
+
