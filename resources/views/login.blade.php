@@ -15,6 +15,11 @@
 
 </head>
 <body>
+    @if (session('registered'))
+        <div class= "alert alert-success">
+            {{session('registered')}}
+        </div>
+    @endif
     <div class="container bg-transparent">
             <div class="loginbox" id="boxlogin">
                 <img class="center" src="/image/icon.png" alt="icon" style="height: 20%">
