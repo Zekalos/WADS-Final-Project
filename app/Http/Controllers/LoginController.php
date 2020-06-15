@@ -60,7 +60,7 @@ class LoginController extends Controller
         $lastname = $request->input('lastname');
         User::create($input);
         
-        return redirect()->back();
+        return redirect()->back()->with('registered' , 'You have Successfully Registered an Account');
 
     }
 
