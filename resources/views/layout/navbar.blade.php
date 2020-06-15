@@ -35,9 +35,6 @@
             <li class="nav-item">
                 <a class="nav-link" href="/people/friendlist">Friend</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Chat With Bot</a>
-            </li>
           </ul>
         </div>
         <div>
