@@ -70,6 +70,7 @@ that shows any user personal information.
 
 ## References
 1. https://bootsnipp.com/tags/chat
-2. https://www.youtube.com/watch?v=l44IF9fBNOs
+2. https://www.youtube.com/watch?v=cPGhs94Rj5E
+3. https://www.youtube.com/watch?v=L5WWrGMsnpw
 
 
