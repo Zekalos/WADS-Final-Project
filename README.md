@@ -56,7 +56,8 @@ private chat:
 2. click the friend name and it will show all the chat with the selected friend.
 3. type the message/chat and press [enter] to send the message/chat.
 
-## Warnings
+## Warnings and Agreement
+Do NOT reveal your Personal Information.
 The leak of personal Information is not our responsibilty.
 
 
