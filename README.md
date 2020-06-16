@@ -7,8 +7,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Developer (Group 7)
-Members:
+## Developer (Group-7)
+
 - Ellery Alexander Setiadi (2201797121)
 - Vedro Suwandi (2201798093)
 
@@ -70,7 +70,6 @@ that shows any user personal information.
 
 ## References
 1. https://bootsnipp.com/tags/chat
-2. https://www.youtube.com/watch?v=cPGhs94Rj5E
-3. https://www.youtube.com/watch?v=L5WWrGMsnpw
+2. https://www.youtube.com/watch?v=L5WWrGMsnpw
 
 
