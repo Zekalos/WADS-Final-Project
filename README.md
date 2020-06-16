@@ -57,6 +57,8 @@ private chat:
 3. type the message/chat and press [enter] to send the message/chat.
 
 ## Warnings
+The leak of personal Information is not our responsibilty.
+
 
 ## References
 
