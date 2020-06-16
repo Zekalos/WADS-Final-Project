@@ -9,20 +9,27 @@
 
 ## Developer (Group-7)
 
-- Ellery Alexander Setiadi () 
-- Vedro Suwandi (2201798093) [(Github)](https://github.com/vedrosuwandi)
+- Ellery Alexander Setiadi (2201797121)
+- Vedro Suwandi (2201798093)
 
 ## About RelaxnChat
 
-RelaxnChat is the chat platform that allows you to chat with another people.
+RelaxnChat is the web chat platform that allows you to chat with another people without have to download anything. 
+in here you can talk with anybody without worrying your personal information being leaked because in this app, no personal 
+information will be shown either to other user or to the user itself.
+
+## Link
 https://relaxnchat.xyz
 
 ## Tool Used
 
-- Backend 
+### database:
+    - mysql
+    
+### Backend 
     - PHP
 
-- Frontend 
+### Frontend 
     - Laravel Blade
     - Jquery
     - Javascript
@@ -56,9 +63,9 @@ private chat:
 2. click the friend name and it will show all the chat with the selected friend.
 3. type the message/chat and press [enter] to send the message/chat.
 
-## Warnings and Agreement
-Do NOT reveal your Personal Information.
-The leak of personal Information is not our responsibilty.
+## Warnings
+if personal Information is leaked, it will be the user own responsibilty because this app has no feature 
+that shows any user personal information.
 
 
 ## References
