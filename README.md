@@ -26,10 +26,10 @@ https://relaxnchat.xyz
 ### database:
     - mysql
     
-### Backend 
+### Backend: 
     - PHP
 
-### Frontend 
+### Frontend: 
     - Laravel Blade
     - Jquery
     - Javascript
