@@ -7,8 +7,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Developer (Group-7)
-
+## Developer (Group 7)
+Members:
 - Ellery Alexander Setiadi (2201797121)
 - Vedro Suwandi (2201798093)
 
