@@ -9,8 +9,8 @@
 
 ## Developer (Group-7)
 
-- Ellery Alexander Setiadi ()
-- Vedro Suwandi (2201798093)
+- Ellery Alexander Setiadi () 
+- Vedro Suwandi (2201798093) [(Github)] (https://github.com/vedrosuwandi)
 
 ## About RelaxnChat
 
