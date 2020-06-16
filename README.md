@@ -36,13 +36,13 @@ https://relaxnchat.xyz
 
 ## How to use it
 
-login/register:
+### login/register:
 1. login with your registered email and password.
 2. if you have not registered yet, click the register tab and fill all the required information.
 3. after you have succesfully logged in, you will be redirected to the home page 
    which will show all available public chat room.
 
-public chat/open group chat:
+### public chat/open group chat:
 1. to join a public chat, first you need to click the "join" button.
 2. click the "public chat" tab which will show all the public chat room you have joined.
 3. click a public chat in the public chat list and it will show all the chat inside that room. 
@@ -50,7 +50,7 @@ public chat/open group chat:
 5. to leave the room, click the leave room button on the right side of the chat room name 
    in the "public chat" tab
 
-Friend:
+### Friend:
 1. click the "Friend" tab 
 2. to see the friend list, click the "friend list" tab 
 3. to add a friend, click the search tab and type the name of the user that you want to invite.
@@ -58,7 +58,7 @@ Friend:
 4. to unfriend, click the unfriend button in the friend list and it will unfriend the user 
    on that row
 
-private chat:
+### private chat:
 1. click "private chat" tab and it will show all of your friend name.
 2. click the friend name and it will show all the chat with the selected friend.
 3. type the message/chat and press [enter] to send the message/chat.
