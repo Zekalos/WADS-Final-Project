@@ -19,12 +19,13 @@ https://relaxnchat.xyz
 
 ## Tool Used
 
-Backend - PHP
-<br>
-Frontend 
-- Laravel Blade
-- Jquery
-- Javascript
+- Backend 
+    - PHP
+
+- Frontend 
+    - Laravel Blade
+    - Jquery
+    - Javascript
 
 ## How to use it
 
