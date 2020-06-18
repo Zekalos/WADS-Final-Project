@@ -22,9 +22,10 @@ information will be shown either to other user or to the user itself.
 https://relaxnchat.xyz
 
 ## Tool Used
+- Pusher
 
 ### database:
-    - mysql
+    - MySQL
     
 ### Backend: 
     - PHP
