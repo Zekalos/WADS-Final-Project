@@ -14,7 +14,7 @@ const unityContent = new UnityContent(
     '../../Game/UnityLoader.js'
 )
 
-const Dashboard = ({user, logout}) => {
+const Dashboard = ({user, logout, refresh}) => {
 
     const [currency, setCurrency] = useState(user.Currency);
 
@@ -25,9 +25,12 @@ const Dashboard = ({user, logout}) => {
         if(localStorage.getItem("refreshToken") === null){
             window.location.href="/"
         }else{
+            if(!Cookies.get('token')){
+                refresh()
+            }
             setCurrency(user.Currency);
         }
-    },[user.Currency])
+    },[user.Currency, refresh])
 
 
     // render when the currency is changed
