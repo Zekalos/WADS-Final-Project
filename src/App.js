@@ -103,7 +103,7 @@ function App() {
                 <Route exact path="/" render={() => <Home refresh={refresh} />}/>
                 <Route exact path="/login" component={Login} />
                 <Route exact path="/register" component={Register} />
-                <Route exact path="/dashboard" render={()=> <Dashboard isLoggedIn={isLoggedIn} user={user} logout={logOut}  /> } />
+                <Route exact path="/dashboard" render={()=> <Dashboard isLoggedIn={isLoggedIn} user={user} logout={logOut} refresh={refresh} /> } />
                 <Route exact path="/profile" render={()=> <Profile isLoggedIn={isLoggedIn} user={user} logout={logOut} /> } />
                 <Route exact path="/verify/:id"  component={Verify} />
                 <Route exact path="/verified/:code"  component={Verified} />

@@ -52,6 +52,7 @@ const LoginForm = () => {
                 //store the token in the local storage
                 Cookies.set("token" , response.data.token);
                 localStorage.setItem("refreshToken" , response.data.refreshToken);
+                console.log("Logged In")
                 //Go to Home page
                 window.location.href='/dashboard'
             }
